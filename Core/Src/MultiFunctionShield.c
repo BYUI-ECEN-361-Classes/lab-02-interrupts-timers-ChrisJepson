@@ -84,7 +84,6 @@ void MultiFunctionShield_Single_Digit_Display (int digit, int8_t value)
 
 
 
-
 void MultiFunctionShield_Display (int16_t value)
 {
   if ((value > 9999) || (value < -999))   // out of range
